@@ -1,6 +1,6 @@
 #!/bin/bash
 # to activate the script, excute under script directory: chmod +x scriptname.sh
-# to call the script: selfcalib.sh source date start end imsize
+# to call the script: selfcalib.sh source start_channel date1 date2 //(max 5 dates)
 # eg. selfcalib.sh 0527-6549 3700 ${datearr[@]}
 
 rm -rf /mnt/science1/bliu/ATCA/$1_selfcal_0601/
